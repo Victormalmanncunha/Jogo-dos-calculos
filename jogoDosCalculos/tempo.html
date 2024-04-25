@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+<body>
+    <div><h1 id="tempo"></h1></div>
+    <div id="pergunta"></div><br>
+    <input type="text" name="resposta" id="resposta" placeholder="Responda aqui..."><br>
+    <div style="display: inline;">
+    <div style="float: left;"><h3>Respostas corretas</h3><h2 id="respostaCorreta" style="color: rgb(0, 255, 0);"></h2></div>
+    <div style="margin-left: 2rem; float: right;"><h3>Respostas errada</h3><h2 id="respostaErrada" style="color: red;"></h2></div>
+    </div><br><br>
+    <a href="index.html"><button>Sair</button></a>
+</body>
+<script src="tempo.js"></script>
+</html>
